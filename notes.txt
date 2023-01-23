@@ -4,20 +4,24 @@ Python Training January 2023
 Toby Dussek 
 
 9:30 start
-11:00 coffee
+11:00 coffee UNTIL 11:15
 12:30 lunch
 3:00 tea
 4:30 end
 
+
+q - why is there no 'run code' option? (only run in terminal)
+    solution - install the extention called 'code runner'
+
 Monday
-- Welcome
+> Welcome
 - where to write code: immediate and module
   Pycharm or VSCode or ...
 - overview of Python 3 (and briefly Python 2)
 - What code does, efficiency concerns and code style
 - architecture, structure, and professional code best practice
 - print() and input()
-- maths operators and data types
+> maths operators and data types
 - the 'if' statement for conditional logic
 - looping with 'for'
 - while loop, break and pass
