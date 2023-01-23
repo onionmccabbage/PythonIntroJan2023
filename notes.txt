@@ -5,9 +5,12 @@ Toby Dussek
 
 9:30 start
 11:00 coffee UNTIL 11:15
-12:30 lunch
-3:00 tea
+12:30 lunch until 1:30
+3:00 tea UNTIL 3:15
 4:30 end
+
+All my code will be here:
+   https://github.com/onionmccabbage/PythonIntroJan2023
 
 
 q - why is there no 'run code' option? (only run in terminal)
@@ -18,24 +21,24 @@ Monday
 - where to write code: immediate and module
   Pycharm or VSCode or ...
 - overview of Python 3 (and briefly Python 2)
-- What code does, efficiency concerns and code style
+> What code does, efficiency concerns and code style
 - architecture, structure, and professional code best practice
-- print() and input()
+> print() and input()
 > maths operators and data types
-- the 'if' statement for conditional logic
-- looping with 'for'
+> the 'if' statement for conditional logic
+> looping with 'for'
 - while loop, break and pass
-- Python indent syntax
-- immutable strings
-- print formatting
-- square bracket notation for iterable collections
+> Python indent syntax
+> immutable strings
+> print formatting
+> square bracket notation for iterable collections
 - identifiers
-- boolean True and False
+> boolean True and False
 - type and type conversion, also isinstance() and isnumeric()
-- validate input before casting it
-- string manipulation
+> validate input before casting it
+> string manipulation
 - Lists, Tuples and nested collections
-- after lunch review exercise
+> after lunch review exercise
 - dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
 - very big numeric values
