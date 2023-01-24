@@ -12,17 +12,16 @@ Toby Dussek
 All my code will be here:
    https://github.com/onionmccabbage/PythonIntroJan2023
 
-
 q - why is there no 'run code' option? (only run in terminal)
     solution - install the extention called 'code runner'
 
 Monday
 > Welcome
-- where to write code: immediate and module
+> where to write code: immediate and module
   Pycharm or VSCode or ...
 - overview of Python 3 (and briefly Python 2)
 > What code does, efficiency concerns and code style
-- architecture, structure, and professional code best practice
+> architecture, structure, and professional code best practice
 > print() and input()
 > maths operators and data types
 > the 'if' statement for conditional logic
@@ -32,15 +31,15 @@ Monday
 > immutable strings
 > print formatting
 > square bracket notation for iterable collections
-- identifiers
+> identifiers: use camelCase or snake_case or PascalCase
 > boolean True and False
 > type and type conversion, also isinstance() and isnumeric()
 > validate input before casting it
 > string manipulation
-- Lists, Tuples and nested collections
+> Lists, Tuples and nested collections
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
-- import, pip, libraries and modules
+> import, pip, libraries and modules
 > very big numeric values
 - range, generators
 
@@ -49,26 +48,26 @@ Tuesday
 > writing and reading text and bytes more elegantly
 - finding text within a log
 - tuple comprehension, list compresension, dictionary comprehension
-- other kinds of Python: cpython is the default - also jython ipython ironpython
-- functions, *args, **kwargs  
-- to add libraries to python:
+> other kinds of Python: cpython is the default - also jython ipython ironpython
+> to add libraries to python:
   - python -m ensurepip
   - python –m pip install requests (or any other library you need)
-- pip list shows all installed libraries
-- pip show requests tells us if it is available
-- requests (reading from API url) JSON (mention XML)
+> pip list shows all installed libraries
+> pip show requests tells us if it is available
+> requests (reading from API url) JSON (mention XML)
 - overview of testing
 > strings with triple quotes
-- architecture: modules __init__.py and __name__ == '__main__'
+> architecture: modules __init__.py and __name__ == '__main__'
 > exception handling (try-except etc.)
-- review exercise
-- a bit about json
-- import path
-- File input and output
-- read and write binary files (bytes)
+> review exercise
+> a bit about json
+> import path
+> File input and output
+> read and write binary files (bytes)
 
 Wednesday
 - brief review so far
+- revisit functions, *args, **kwargs  
 - in Python EVERYTHING is an Object (values, functions, classes and modules)
 - functions live in classes, which live in modules which live in packages
 - moving from Py2 to Py3
