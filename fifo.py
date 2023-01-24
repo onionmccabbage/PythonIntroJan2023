@@ -20,6 +20,8 @@ def fileOutput(t): # here we define a function
                 fout.write( t[offset:offset+chunk] ) # we wtie only 24 characters at a time
                 offset += chunk # += means ad the value to the current value
         fout.close() # tidy up
+    except FileExistsError as err:
+        print('sorry you cannot write to the file if it exists already')
     except Exception as err: # if something goes wrong ten Python will jump to this block
         print( f'There was a problem: {err}' )
     # you can have maultiple except blocks each for different exceptions

@@ -46,7 +46,7 @@ Monday
 
 Tuesday
 - quick review of where we got to
-- writing and reading text and bytes more elegantly
+> writing and reading text and bytes more elegantly
 - finding text within a log
 - tuple comprehension, list compresension, dictionary comprehension
 - other kinds of Python: cpython is the default - also jython ipython ironpython
