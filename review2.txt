@@ -1,4 +1,4 @@
-Python Review 2 until tea beeak at 3:00
+Python Review 2 until tea break at 3:00
 ===============
 Ask the user for a category then ask them for an id number
 (category can be 'users', 'posts', 'albums', 'todos' or 'photos')
