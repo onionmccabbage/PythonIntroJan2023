@@ -1,7 +1,4 @@
-# file input and file output using Bytes
-b = bytes( range(0, 255) ) # the first 255 characters as bytes
-# a byte is eight bits
-print(b) # the b'' at the start of the string tells us it is a Byte string
+print('anything NOT inside the "if" will be run on import')
 
 def writeBytes(data):
     '''write some bytes to a file'''
@@ -22,5 +19,12 @@ def readBytes():
     except Exception as err:
         print( f'here was an eror {err}' )       
 
-# we can invoke our functions here
-writeBytes(b) # pass our byte string into our function
+# we need to avoid running the module if its imported
+if __name__ == '__main__':
+    # file input and file output using Bytes
+    b = bytes( range(0, 255) ) # the first 255 characters as bytes
+    # a byte is eight bits
+    print(b) # the b'' at the start of the string tells us it is a Byte string
+    # we can invoke our functions here
+    writeBytes(b) # pass our byte string into our function
+    print('this line runs solely because this module was run directly')

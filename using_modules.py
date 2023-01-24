@@ -3,7 +3,8 @@
 # the current drectory
 # any Python path 
 # you can specify an absolute or relative path
-from fifo_bytes import writeBytes
+# in this case we access a module that is inside a package (i.e. folder)
+from my_util.fifo_bytes import writeBytes
 
 # ask the user
 i = input('what needs to be written? ')

@@ -1,6 +1,6 @@
 '''
 It is a good idea to write a docstring - a documentation string
-This is done using THRE quotes like this
+This is done using THREE quotes like this
 '''
 
 # checking type instances
