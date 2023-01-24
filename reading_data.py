@@ -19,7 +19,6 @@ fin.close() # always a good idea to tidy up
 # a byte file
 # an API url
 
-# on the next course (advanced python) we see
-# read/write database
+# on the next course (advanced python) we see how to read/write database
         
 # on the third course (further advancecd python) we read/write between micro-services

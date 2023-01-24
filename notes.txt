@@ -46,13 +46,15 @@ Monday
 
 Tuesday
 - quick review of where we got to
+- writing and reading text and bytes more elegantly
+- finding text within a log
 - tuple comprehension, list compresension, dictionary comprehension
 - other kinds of Python: cpython is the default - also jython ipython ironpython
 - functions, *args, **kwargs  
 - to add libraries to python:
   - python -m ensurepip
   - python –m pip install requests (or any other library you need)
-- requests
+- requests (reading from API url) JSON (mention XML)
 - overview of testing
 - strings with triple quotes
 - architecture: modules __init__.py and __name__ == '__main__'
