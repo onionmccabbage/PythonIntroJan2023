@@ -6,6 +6,7 @@ p['age'] = True # oh dear
 # the built in structures give no mchanism to validate their values
 # we can write a class to ensure we validate the data members
 
+# all classes inherit from the 'object' class in Python
 class Person: # by convention we usse initial cap for a class name
     '''This class encapsulates a Person with positive integer age'''
     def __init__(self, a, n): # every function in a class MUST take 'self' which represents the class
@@ -42,6 +43,3 @@ if __name__ == '__main__':
     # NB we CANNOT directly access __age or __name
     print( a.age, a.name ) # we can access class properties using dot syntax
     print( b.age, b.name ) # we can access class properties using dot syntax
-
-
-
