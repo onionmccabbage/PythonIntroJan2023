@@ -14,9 +14,9 @@ class Coder(Person): # this class will inherit everything from the Person class
         return self.__language
     @language.setter
     def language(self, l):
-        self.language = self.__validate(l)
+        self.__language = self.__validate(l)
     # we can write normal functions in a class (they are known as 'methods')
-    def prettyPrint(self):
+    def __str__(self): # we can override the built-in '__str__' method to make our own print response
         # CAREFUL - we use 'self' to refer to the current isntance
         return f'Name:{self.name} Age:{self.age} Language:{self.language}'
     # we can also mangle methods, so they are only available within the class
@@ -29,5 +29,8 @@ class Coder(Person): # this class will inherit everything from the Person class
 if __name__ == '__main__':
     # when we create an instance of a class, it WILL call __init__
     grace = Coder(98, 'Grace Hopper', 'Assembly')
-    print( grace.prettyPrint() ) # the brackets indicate we are calling a function
+    # the 'print' statement in Python will ALWAYS looks for a __str__ method on the object being printed
+
+    # print( grace.prettyPrint() ) # the brackets indicate we are calling a function
+    print(grace) # this will call our __str__ method
         
