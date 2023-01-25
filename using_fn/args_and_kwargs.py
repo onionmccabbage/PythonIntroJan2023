@@ -1,5 +1,7 @@
 # we can combine args and kwargs...
 
+# positional arguments MUST come before keyword arguments
+# args and kwargs are widely used by convention
 def fn(*args, **kwargs):
     print(args) # show the positional arguments tuple
     print(kwargs) # show the keyword arguments dict

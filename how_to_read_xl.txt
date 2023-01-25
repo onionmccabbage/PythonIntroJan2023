@@ -1,0 +1,26 @@
+# Import the required modules
+import pandas as pd
+import json
+ 
+# Set the path to the MS Excel Input file
+excel_file_path = (r'C:\Users\LMIMKLY\github\Learning-Python\Hydra-Update-networks.xlsx') # work PATH
+ 
+# Read in Excel file
+excel_records = pd.read_excel(excel_file_path)
+# Replace any NULL values with value "True"
+excel_records.fillna('', inplace=True)
+# Remove any unamed columns
+excel_records_df = excel_records.loc[:, ~excel_records.columns.str.contains('^Unnamed')]
+# export to a list of dictionaries
+records_list_of_dict=excel_records_df.to_dict('records')
+ 
+# Convert to JSON format (indented)
+jstr = json.dumps(records_list_of_dict, indent = 4)
+ 
+# Write out to file
+# Open output file in write (w) mode
+file = open("Networks.json", "w")
+# Write the data to the file
+file.write(jstr)
+# Close the file
+file.close
