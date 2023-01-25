@@ -14,7 +14,7 @@ class LocalWeather(Weather): # inherit from our Weather class
         return self.__city
     @city.setter
     def city(self, new_city):
-        if type(new_city) == str and new_city != '':
+        if type(new_city) == str and new_city != '': # or we could use new_city is not ''
             self.__city = new_city
     @property
     def country(self):
