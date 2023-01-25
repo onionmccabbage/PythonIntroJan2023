@@ -1,4 +1,4 @@
-Python Review Exercise 3 until tea breeak at 3:00
+Python Review Exercise 3 until tea break at 3:00
 ========================
 We need a 'Weather' class
 Decide on properties and methods you think it should encapsulate, then build it
