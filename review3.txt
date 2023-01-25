@@ -1,11 +1,11 @@
-Python Review Exercise 3
+Python Review Exercise 3 until tea breeak at 3:00
 ========================
 We need a 'Weather' class
 Decide on properties and methods you think it should encapsulate, then build it
-Consider if there should be any read-only properties
 Override the __str__ method so it prints nicely
 Exercise the code by instantiating some weather objects
 ( remember to use if __name__=='__main__' )
+- show and tell after tea
 
 Details: 
 --------
@@ -23,7 +23,7 @@ Write a __str__ method that returns a nicely formatted report of the weather
 Optional:
 ---------
 Validate the country code to be one of a tuple of permitted values
-- consider how to deal with invalid values - default vaue? throw an exception....?
+- consider how to deal with invalid values - default value? throw an exception....?
   e.g. ('ie', 'fr', 'de', 'aus', 'gb', 'it', 'es') (maybe have a 'location' class for city/country)
 Also add properties for wind-speed and direction (maybe as a dictionary or a 'wind' class)
 Additional methods might include:
