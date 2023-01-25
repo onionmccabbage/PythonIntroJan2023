@@ -32,3 +32,5 @@ if __name__ == '__main__':
     w1 = Word('Hello')
     w2 = Word('hello')
     print( w1 == w2 )  # True
+    # print( w1 == word2 ) # fails - they must be of the same data type
+    print( w1.__doc__  ) # this will print the docstring
